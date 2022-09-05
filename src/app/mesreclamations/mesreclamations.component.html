@@ -1,0 +1,35 @@
+<h1>mes réclamations</h1>
+<br />
+<br />
+<form [formGroup]="form">
+  <select name="Continent"  formControlName="country" 
+  [(ngModel)]="selectedDevice" (ngModelChange)="onChange($event)">
+    <option>Tunisie</option>
+    <option>Arabie Saoudie</option>
+    <option> Paris</option>
+    <option>Jordan</option>
+    <option>Egypt</option>
+    <option>Berlin</option>
+</select>
+</form>
+<div class="container">
+  <div class="card shadow mb-4">
+    <div class="card-body">
+      <h2><font color="blue" Liste des réclamations></font></h2>
+      <table class="table table-striped" id="customers">
+        <tr>
+          <th>Id</th>
+          <th>Country</th>
+          <th>message</th>
+        </tr>
+        <tbody *ngFor="let reclamation of reclam">
+          <tr>
+            <td>{{ reclamation.id }}</td>
+            <td>{{ reclamation.country }}</td>
+            <td>{{ reclamation.message }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

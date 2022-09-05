@@ -1,0 +1,46 @@
+.bg-dark {
+    background-color: #ffffff!important;
+}
+.navbar-dark .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    padding: 0.5rem 0rem;
+}
+#app{
+    display: flex;
+}
+.cl{
+width: 100%;
+height: 100vh;
+}
+.app-login{
+    background-image :url("https://raw.githubusercontent.com/mazenmdimegh/Angular-Web-Application-Helia-Pack/master/src/assets/img/login-bg.jpg")!important;
+    background-size: cover;
+    height: 100vh;
+    /* background-image :url("https://raw.githubusercontent.com/mazenmdimegh/Angular-Web-Application-Helia-Pack/master/src/assets/img/login-bg.jpg")!important;
+    background-size: cover; */
+
+height: 100vh;}
+.nav{
+    color: rgb(23, 43, 77);
+    cursor: pointer;
+    font-size: 17px;
+    border: 0px;
+    align-items: baseline;
+    
+    text-decoration: none;
+}
+.nav-item{
+    padding-left: 20px;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.blue{
+    background-color: rgb(0, 101, 255);
+    color: rgb(255, 255, 255);
+}

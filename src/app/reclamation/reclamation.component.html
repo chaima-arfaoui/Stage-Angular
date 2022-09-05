@@ -1,0 +1,29 @@
+<body>
+    <div class="container">
+        <!-- <h1>mon message </h1> -->
+        <div class="card">
+            <div class="card-body">
+               
+        <form [formGroup]="form">
+            <h1>mon message</h1>
+            
+            <select name="Continent"  formControlName="country">
+                <option>Tunisie</option>
+                <option>Arabie Saoudie</option>
+                <option> Paris</option>
+                <option>Jordan</option>
+                <option>Egypt</option>
+            </select>
+            <select name="Continent"  formControlName="category">
+                <option>serveur</option>
+                <option>prise de rendez vous</option>
+                <option> obtention ticket</option>
+                <option>prise de contact</option>
+              </select>
+            <textarea name="Message" placeholder="message" formControlName="message" required></textarea>
+            <button type="submit" (click)="submit()">send your message</button>
+        </form>
+        </div>
+        </div>
+    </div>
+    </body>
